@@ -22,8 +22,6 @@ The goal of this project is to develop an efficient and cost-effective **sound l
 - **LCD Display**
 - **Servo Motors for movement**
 
-
-
 ## Software
 
 - **Arduino IDE**
@@ -52,6 +50,9 @@ To calculate \( \theta \):
 
 By solving this equation, we estimate the direction of the sound source. The robot then turns toward this direction and refines its movement using additional ITD calculations.
 
+### **General Location allocations**
+
+<img src="https://github.com/user-attachments/assets/10193827-f838-458f-809e-6979e91458fc" alt="Scene" width="70%">
 ### Example:
 
 If:
@@ -69,4 +70,8 @@ Then,
 \theta + \sin \theta \approx 89
 \]
 
-This suggests that the source is located at approximately **89°** relative to the robot.
+which concludes the source is located at approximately **89°** relative to the robot.
+
+
+
+
