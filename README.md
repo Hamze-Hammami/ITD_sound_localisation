@@ -1,4 +1,3 @@
-# Sound Localization Robot
 
 ## Overview
 This repository contains the code and documentation for a **sound localization robot** that estimates the azimuth (bearing) of a sound source and navigates toward it. The system is based on **Interaural Time Difference (ITD)** calculations and is designed to work with minimal hardware requirements.
@@ -12,11 +11,15 @@ The goal of this project is to develop an efficient and cost-effective **sound l
 3. **Moving Mode**: The robot moves towards the estimated location, stopping when the ultrasonic sensor detects an obstacle.
 
 ## Hardware
+EMoRo Robot:
 - **EMoRo 2560 Board**
 - **KY-038 Sound Sensors (x2)**
 - **Ultrasonic Sensor (HC-SR04)**
 - **LCD Display**
 - **Servo Motors for movement**
+
+<img src="https://github.com/user-attachments/assets/f4a56d2b-88f8-4874-8010-2c24e2e47aa2" alt="Scene" width="50%">
+
 
 ## Software
 - **Arduino IDE**
